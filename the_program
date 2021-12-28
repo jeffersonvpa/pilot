@@ -1,0 +1,18 @@
+# Make a program that recieves two numbers and show the highest
+
+print('Hi there!')  # The program make a regard
+
+n1 = input('Type a number: ')
+print(f'You typed {n1}')  # Ask and show what number you chose.
+
+n2 = input('Type another number: ')
+print(f'Now you typed {n2}')  # Aks and show the second number that you chose
+
+# For the next step, are make conditionals.
+
+if n1 > n2:
+    print(f'{n1} is higher than {n2}')
+elif n1 < n2:
+    print(f'{n2} is higher than {n1}')
+elif n1 == n2:
+    print('Both numbers are the same')
