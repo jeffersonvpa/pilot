@@ -8,7 +8,7 @@ print(f'You typed {n1}')  # Ask and show what number you chose.
 n2 = input('Type another number: ')
 print(f'Now you typed {n2}')  # Aks and show the second number that you chose
 
-# For the next step, are make conditionals.
+# For the next step, the conditionals are made.
 
 if n1 > n2:
     print(f'{n1} is higher than {n2}')
